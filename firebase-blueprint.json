@@ -1,0 +1,55 @@
+{
+  "entities": {
+    "Validation": {
+      "title": "Validation",
+      "description": "A validation of an AI-generated match by a human user.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "User ID of the validator." },
+        "style": { "type": "string", "description": "The artistic style matched." },
+        "query": { "type": "string", "description": "The original search query." },
+        "timestamp": { "type": "string", "format": "date-time", "description": "When the validation occurred." }
+      },
+      "required": ["uid", "style", "query", "timestamp"]
+    },
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile data and preferences.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "User ID." },
+        "email": { "type": "string", "format": "email", "description": "User email." },
+        "role": { "type": "string", "enum": ["curious", "amateur", "collector", "investor", "admin"], "description": "User role." },
+        "displayName": { "type": "string", "description": "User display name." }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "SearchResult": {
+      "title": "SearchResult",
+      "description": "Cached search results from Gemini.",
+      "type": "object",
+      "properties": {
+        "query": { "type": "string", "description": "The search query." },
+        "style": { "type": "string", "description": "The artistic style." },
+        "description": { "type": "string", "description": "The description of the match." },
+        "imageSeed": { "type": "string", "description": "Seed for image generation." },
+        "timestamp": { "type": "string", "format": "date-time", "description": "When the search was performed." }
+      },
+      "required": ["query", "style", "description", "imageSeed", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/validations/{validationId}": {
+      "schema": "Validation",
+      "description": "Collection of human validations."
+    },
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile documents."
+    },
+    "/searches/{searchId}": {
+      "schema": "SearchResult",
+      "description": "Cached search results."
+    }
+  }
+}
