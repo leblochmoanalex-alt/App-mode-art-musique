@@ -1,0 +1,126 @@
+{
+  "genres": [
+    {
+      "name": "Techno",
+      "style": "Cyber-Brutalism",
+      "gemini_prompt": "Cyber-brutalist artwork, industrial textures, black and white, geometric minimalism, underground techno culture, high contrast, editorial style",
+      "description": "Analyse du mood techno : industriel, minimaliste, énergétique et underground."
+    },
+    {
+      "name": "House",
+      "style": "Neo-Disco Minimalism",
+      "gemini_prompt": "Minimal disco-inspired artwork, rhythmic patterns, black and white, clean geometry, nightlife culture, editorial fashion style",
+      "description": "House : atmosphère festive et minimaliste, rythmes clairs et élégants."
+    },
+    {
+      "name": "Rap US",
+      "style": "Street Luxury Realism",
+      "gemini_prompt": "Urban luxury artwork, street realism, bold typography, hip-hop culture, black and white, high contrast",
+      "description": "Rap US : ambiance urbaine, réaliste et luxueuse, énergie audacieuse."
+    },
+    {
+      "name": "Trap",
+      "style": "Digital Opulence",
+      "gemini_prompt": "Digital opulence aesthetic, glossy textures, futuristic luxury, sharp contrasts, trap culture, black and white editorial",
+      "description": "Trap : opulence digitale, futuriste, textures brillantes et accents modernes."
+    },
+    {
+      "name": "Drill",
+      "style": "Dark Urban Expressionism",
+      "gemini_prompt": "Dark urban expressionism, raw textures, underground drill culture, aggressive composition, black and white high contrast",
+      "description": "Drill : ambiance sombre et agressive, textures brutes et composition intense."
+    },
+    {
+      "name": "Ambient",
+      "style": "Soft Minimalism",
+      "gemini_prompt": "Soft minimal artwork, blurred textures, atmospheric space, calm composition, ambient culture, monochrome tones",
+      "description": "Ambient : atmosphère douce et minimaliste, textures floues et relaxantes."
+    },
+    {
+      "name": "Classical",
+      "style": "Timeless Formalism",
+      "gemini_prompt": "Timeless formal artwork, symmetry, refined composition, classical influence, black and white elegant contrast",
+      "description": "Classique : symétrie, raffinement et élégance intemporelle."
+    },
+    {
+      "name": "Jazz",
+      "style": "Organic Improvisation",
+      "gemini_prompt": "Organic abstract artwork, fluid shapes, improvisational composition, jazz culture, black and white soft contrast",
+      "description": "Jazz : formes fluides et composition organique, improvisation artistique."
+    },
+    {
+      "name": "Metal",
+      "style": "Chaotic Brutalism",
+      "gemini_prompt": "Chaotic brutalist artwork, aggressive textures, extreme composition, metal culture, black and white high contrast",
+      "description": "Metal : chaos brutaliste, textures agressives et énergie extrême."
+    },
+    {
+      "name": "Hyperpop",
+      "style": "Post-Internet Maximalism",
+      "gemini_prompt": "Post-internet maximalism, glitch aesthetics, digital chaos, experimental visuals, hyperpop culture, black and white",
+      "description": "Hyperpop : maximalisme numérique, chaos expérimental et esthétique glitch."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Balenciaga",
+      "style": "Post-Ironic Brutalism",
+      "gemini_prompt": "Post-ironic brutalist fashion artwork, distorted silhouettes, minimal luxury, avant-garde fashion, black and white editorial",
+      "description": "Balenciaga : minimalisme conceptuel et brutaliste, silhouettes distordues et avant-garde."
+    },
+    {
+      "name": "Rick Owens",
+      "style": "Gothic Minimalism",
+      "gemini_prompt": "Gothic minimal artwork, architectural silhouettes, dark shadows, raw textures, black and white high contrast",
+      "description": "Rick Owens : minimalisme gothique, formes architecturales et textures brutes."
+    },
+    {
+      "name": "Dior",
+      "style": "Structured Elegance",
+      "gemini_prompt": "Structured elegance artwork, refined composition, luxury fashion aesthetic, clean lines, black and white high contrast",
+      "description": "Dior : élégance structurée et composition raffinée, luxe classique."
+    },
+    {
+      "name": "Chanel",
+      "style": "Timeless Minimal Luxury",
+      "gemini_prompt": "Minimal luxury artwork, timeless elegance, soft textures, classic fashion codes, monochrome palette",
+      "description": "Chanel : minimalisme intemporel et luxe discret, textures douces et élégance."
+    },
+    {
+      "name": "Maison Margiela",
+      "style": "Conceptual Deconstruction",
+      "gemini_prompt": "Conceptual deconstruction artwork, fragmented shapes, experimental design, avant-garde fashion, black and white",
+      "description": "Maison Margiela : déconstruction conceptuelle, formes fragmentées et design expérimental."
+    },
+    {
+      "name": "Yohji Yamamoto",
+      "style": "Poetic Darkness",
+      "gemini_prompt": "Poetic dark artwork, flowing silhouettes, emotional depth, Japanese avant-garde, monochrome tones",
+      "description": "Yohji Yamamoto : poésie sombre, silhouettes fluides et profondeur émotionnelle."
+    },
+    {
+      "name": "Prada",
+      "style": "Intellectual Minimalism",
+      "gemini_prompt": "Intellectual minimal artwork, clean geometry, subtle tension, modern luxury design, black and white",
+      "description": "Prada : minimalisme intellectuel, géométrie propre et tension subtile."
+    },
+    {
+      "name": "Louis Vuitton",
+      "style": "Global Luxury Hybrid",
+      "gemini_prompt": "Hybrid luxury artwork, global cultural mix, structured composition, modern fashion, monochrome contrast",
+      "description": "Louis Vuitton : luxe global hybride, composition structurée et modernité."
+    },
+    {
+      "name": "Celine",
+      "style": "Modern Bourgeois Minimalism",
+      "gemini_prompt": "Modern minimalist artwork, refined simplicity, bourgeois elegance, monochrome palette",
+      "description": "Celine : minimalisme moderne, simplicité raffinée et élégance bourgeoise."
+    },
+    {
+      "name": "Alexander McQueen",
+      "style": "Dramatic Romanticism",
+      "gemini_prompt": "Dramatic romantic artwork, theatrical composition, emotional intensity, fashion storytelling, black and white",
+      "description": "McQueen : romantisme dramatique, composition théâtrale et intensité émotionnelle."
+    }
+  ]
+}
