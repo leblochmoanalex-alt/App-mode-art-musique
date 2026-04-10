@@ -77,11 +77,15 @@ export async function artMatcherAgent(analysis: MusicAnalysis, brand: Brand): Pr
                     mapping.brands.find(b => b.name === 'Balenciaga'); // Fallback
 
   if (!isGeminiEnabled) {
+    // Select an image from the gallery based on the genre index to ensure variety even in simulation
+    const genreIndex = mapping.genres.findIndex(g => g.name === analysis.genre);
+    const galleryIndex = genreIndex >= 0 ? genreIndex % ART_GALLERY.length : 0;
+    
     return {
       title: "Simulated Masterpiece",
       artist: "AI Muse",
       style: genreData?.style || "Abstract Expressionism",
-      imageUrl: ART_GALLERY[0],
+      imageUrl: ART_GALLERY[galleryIndex],
       explanation: `${genreData?.description} This piece matches your ${analysis.mood} mood and ${analysis.genre} taste, influenced by ${brand}.`,
       colors: ["#000000", "#FFFFFF"]
     };
@@ -150,7 +154,7 @@ export async function artMatcherAgent(analysis: MusicAnalysis, brand: Brand): Pr
       title: "Fallback Art",
       artist: "Gemini",
       style: "Modern",
-      imageUrl: ART_GALLERY[0],
+      imageUrl: ART_GALLERY[Math.floor(Math.random() * ART_GALLERY.length)],
       explanation: "A matching piece for your unique taste.",
       colors: ["#333333"]
     };
